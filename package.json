@@ -1,0 +1,21 @@
+{
+  "name": "drawifyjs",
+  "version": "1.0.0",
+  "description": "Dies wird eine App mit der sich JSON-Dateien grafisch bearbeiten lassen.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tschreindl/drawifyjs"
+  },
+  "author": "Tim Schreindl",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.4"
+  },
+  "dependencies": {
+    "@json-editor/json-editor": "^1.1.0"
+  }
+}
